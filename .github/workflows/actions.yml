@@ -22,7 +22,7 @@ jobs:
       ORIGIN_VERSION: 7.2+dfsg-1~bpo11+2
     steps:
       - uses: actions/checkout@v2
-      - name: Set variables
+      - name: Set dummy variables
         run: |
           echo "DOCKER_REPO=docker.io/$GITHUB_REPOSITORY" >> $GITHUB_ENV
       - name: Build
