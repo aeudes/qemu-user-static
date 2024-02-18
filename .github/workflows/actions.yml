@@ -18,8 +18,8 @@ jobs:
   qemu-user-static:
     runs-on: ubuntu-latest
     env:
-      VERSION: 7.2.0-1
-      ORIGIN_VERSION: 7.2+dfsg-1~bpo11+2
+      VERSION: 7.2.0-7
+      ORIGIN_VERSION: 7.2+dfsg-7+deb12u5
     steps:
       - uses: actions/checkout@v2
       - name: Set dummy variables
